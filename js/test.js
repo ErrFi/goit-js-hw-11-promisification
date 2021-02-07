@@ -49,10 +49,7 @@ const logSuccess = ({id, time}) => {
     );  
 
 };
-
-// test requests:
-// console.log("Task #3 processing ...");
-
+  
   makeTransaction({ id: 70, amount: 150 })
     .then(logSuccess)
     .catch(logError);
